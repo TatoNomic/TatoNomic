@@ -1,59 +1,65 @@
 <div align="center">
 
-#
-
-<!-- Dynamic Animated Wave Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,20&height=200&section=header&text=Esteban%20Tato&fontSize=42&fontAlignY=38&desc=Applied%20Statistics%20•%20Genomics%20•%20Data%20Pipelines&descFontSize=18&descAlignY=58&fontColor=ffffff" width="100%" />
+<!-- Cyber Matrix Dynamic Wave Banner -->
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,50:042f2e,100:064e3b&height=220&section=header&text=ESTEBAN%20TATO&fontSize=42&fontAlignY=40&desc=Machine%20Learning%20%E2%80%A2%20Speech%20AI%20%E2%80%A2%20Genomics%20%E2%80%A2%20Pipelines&descFontSize=16&descAlignY=62&fontColor=34d399" width="100%" />
 
 <br/>
 
-<!-- Sleek Animated Typing Terminal -->
+<!-- Terminal Typing Simulation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1200&color=2563EB&center=true&vCenter=true&width=620&lines=Automating+scalable+research+pipelines...;Multi-omic+data+science+%26+phenotyping;Building+reproducible+workflows;Turning+complex+data+into+clarity." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=10B981&center=true&vCenter=true&width=650&lines=%3E_Deploying+Machine+Learning+%26+Deep+Speech+Pipelines...;%3E_Multi-omic+Data+Science+%26+Digital+Phenotyping;%3E_Acoustic+Analysis+%7C+Acoustic+Signal+Processing;%3E_Scaling+Reproducible+Research+Architectures." alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
-<!-- Modern Pill Tech Badges -->
+<!-- Focus Areas & Core Domains -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Domain-Speech_AI_%26_Acoustics-059669?style=for-the-badge&logo=soundcharts&logoColor=white" />
+  <img src="https://img.shields.io/badge/Domain-Machine_Learning-10B981?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Domain-Genomics_%26_Phenomics-047857?style=for-the-badge&logo=dbt&logoColor=white" />
+</p>
+
+<!-- Tech Stack & Tooling -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 </p>
 
 ---
 
-### ⚡ Activity & Metrics
+### 🧬 Telemetry & GitHub Diagnostics
 
-<!-- Aligned Dynamic Cards with Consistent Dark Theme -->
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api?username=TatoNomic&show_icons=true&theme=radical&hide_border=false&border_radius=8&count_private=true" height="175" />
+      <img src="https://streak-stats.demolab.com?user=TatoNomic&theme=matrix&hide_border=false&border_radius=8" height="180" />
     </td>
     <td align="center" valign="middle">
-      <img src="https://streak-stats.demolab.com?user=TatoNomic&theme=radical&hide_border=false&border_radius=8" height="175" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" valign="middle">
-      <br/>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TatoNomic&layout=compact&theme=radical&hide_border=false&border_radius=8" width="85%" />
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=TatoNomic&show_icons=true&theme=matrix&hide_border=false&border_radius=8&count_private=true" height="180" />
     </td>
   </tr>
 </table>
 
----
-
-### 🌊 Activity Stream
+<br/>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TatoNomic&theme=react-dark&hide_border=true&area=true&radius=8" width="100%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TatoNomic&layout=compact&theme=matrix&hide_border=false&border_radius=8" width="60%" />
 </p>
 
-<!-- Clean Bottom Accent Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,20&height=100&section=footer" width="100%" />
+---
+
+### 📡 Real-Time Activity Feed
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TatoNomic&theme=matrix&hide_border=true&area=true&radius=8" width="100%" />
+</p>
+
+<!-- Cyber Base Accents -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:042f2e,100:000000&height=12&section=footer" width="100%" />
 
 </div>
