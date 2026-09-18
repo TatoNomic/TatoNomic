@@ -1,8 +1,8 @@
-name: Generate Nostromo Terminal GIF
+name: GitHub Readme Terminal
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Updates automatically at midnight
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -14,26 +14,35 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Generate Nostromo Terminal
+        uses: x0rzavi/github-readme-terminal@v1
         with:
-          python-version: '3.10'
-
-      - name: Install FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-
-      - name: Install dependencies
-        run: python -m pip install --upgrade github-readme-terminal
-
-      - name: Generate Retro GIF
+          github_token: ${{ secrets.GITHUB_TOKEN }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python generate_nostromo.py
-        
-      - name: Commit Output
+          # Hijack the default "yoru" theme and force the Nostromo color palette
+          GIFOS_YORU_DEFAULT_COLORS_BG: "#050505"
+          GIFOS_YORU_DEFAULT_COLORS_FG: "#39ff14"
+          GIFOS_YORU_NORMAL_COLORS_BLACK: "#050505"
+          GIFOS_YORU_NORMAL_COLORS_RED: "#39ff14"
+          GIFOS_YORU_NORMAL_COLORS_GREEN: "#39ff14"
+          GIFOS_YORU_NORMAL_COLORS_YELLOW: "#39ff14"
+          GIFOS_YORU_NORMAL_COLORS_BLUE: "#39ff14"
+          GIFOS_YORU_NORMAL_COLORS_MAGENTA: "#39ff14"
+          GIFOS_YORU_NORMAL_COLORS_CYAN: "#39ff14"
+          GIFOS_YORU_NORMAL_COLORS_WHITE: "#39ff14"
+          GIFOS_YORU_BRIGHT_COLORS_BLACK: "#050505"
+          GIFOS_YORU_BRIGHT_COLORS_RED: "#39ff14"
+          GIFOS_YORU_BRIGHT_COLORS_GREEN: "#39ff14"
+          GIFOS_YORU_BRIGHT_COLORS_YELLOW: "#39ff14"
+          GIFOS_YORU_BRIGHT_COLORS_BLUE: "#39ff14"
+          GIFOS_YORU_BRIGHT_COLORS_MAGENTA: "#39ff14"
+          GIFOS_YORU_BRIGHT_COLORS_CYAN: "#39ff14"
+          GIFOS_YORU_BRIGHT_COLORS_WHITE: "#39ff14"
+
+      - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add output.gif
+          git add github-readme-terminal.gif
           git commit -m "Update Nostromo Terminal animation" || echo "No changes to commit"
           git push
