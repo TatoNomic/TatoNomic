@@ -1,5 +1,3 @@
 <div align="center">
-  
-  <img src="https://raw.githubusercontent.com/TatoNomic/TatoNomic/main/github-readme-terminal.gif" alt="Nostromo System Interface" width="800" />
-  
+  <img src="https://raw.githubusercontent.com/TatoNomic/TatoNomic/main/output.gif" alt="Nostromo System Interface" width="850" />
 </div>
