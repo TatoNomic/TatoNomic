@@ -1,5 +1,5 @@
 <div align="center">
   
-  <img src="./output.gif" alt="Nostromo Terminal Interface" width="800" />
+  <img src="https://raw.githubusercontent.com/TatoNomic/TatoNomic/main/output.gif" alt="Nostromo Terminal Interface" width="800" />
   
 </div>
